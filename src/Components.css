@@ -1,0 +1,62 @@
+.background{
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1024px;
+    width: 1440px;
+    background-image: linear-gradient(#06CEFA, #FFFFFF);
+}
+.bodyBackground{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 811px;
+    width: 1206px;
+    background-image: linear-gradient(#FDFFFF, #06CEFA);
+    border-radius: 50px;
+}
+.inputEmail{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 290px;
+    height: 118px;
+    width: 609px;
+    background-color: #FFFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.inputPassword{
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 290px;
+    height: 118px;
+    width: 609px;
+    background-color: #FFFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.sendButton{
+    position: fixed;
+    margin-top: 550px;
+    margin-left: 400px;
+    height: 107px;
+    width: 362px;
+    background-color: #06CEFA;
+    border: 5px;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
