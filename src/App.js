@@ -4,15 +4,15 @@ function App() {
   return (
     <div className='background'>
       <div className='bodyBackground'>
-            <div className='inputEmail'>
-
+            <div className='inputEmailBlock'>
+                <input type="string" required placeholder="Enter your email" className='inputEmail'/>
             </div>
-            <div className='inputPassword'>
-
+            <div className='inputPasswordBlock'>
+                <input type="string" required placeholder="Enter your password" className='inputPassword'/>
             </div>
           <div>
               <button className='sendButton'>
-
+                    Send
               </button>
           </div>
       </div>
